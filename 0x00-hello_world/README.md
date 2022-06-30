@@ -21,3 +21,9 @@
 			<br />Use the function puts
 			<br />You are not allowed to use printf
 			<br />Your program should end with the value 0
+			
+5. Hello, printf -> Write a C program that prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+			<br />Use the function printf
+			<br />You are not allowed to use the function puts
+			<br />Your program should return 0
+			<br />Your program should compile without warning when using the -Wall gcc option
