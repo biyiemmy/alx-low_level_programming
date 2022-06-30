@@ -13,3 +13,6 @@
 		<br /> The C file name will be saved in the variable $CFILE
 		<br /> The output file should be named the same as the C file, but with the extension .s instead of .c.
 			<br /> Example: if the C file is main.c, the output file should be main.s
+			
+3. Name -> Write a script that compiles a C file and creates an executable named cisfun.
+		<br /> The C file name will be saved in the variable $CFILE
