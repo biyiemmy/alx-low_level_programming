@@ -1,21 +1,21 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
- *
- * Return: Always 0 (Success)
+ * Return:0
  */
 int main(void)
 {
-int z;
+	int i, y;
+	for (i = 0; i < 10; i++)
+	{
+		putchar (i + '0');
+	}
+	for (y = 'a'; y <= 'f'; y++)
+	{
+		putchar (y);
+	}
 
-for (z = 48; z <= 57; z++)
-{
-putchar(z);
-}
-for (z = 97; z <= 102;z++)
-{
-putchar(z)
-}
 putchar('\n');
 return (0);
 }
