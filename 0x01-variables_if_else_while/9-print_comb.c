@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include<stdlib.h>
+#include <stdlib.h>
 /**
  * main - block to be executed
  * Description: print all single digits
