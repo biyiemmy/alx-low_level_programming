@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
  * main - main block
- * Description: Get a random number and check its last digit, compare it with 5
+ * Description:  prints the alphabet in lowercase,
+ * and then in uppercase, followed by a new line.
  * Return: 0
  */
 int main(void)
@@ -10,6 +10,14 @@ int main(void)
 	char c = 'a';
 
 	while (c <= 'z')
+	{
+		putchar(c);
+		c++;
+	}
+
+	c = 'A';
+
+	while (c <= 'Z')
 	{
 		putchar(c);
 		c++;
