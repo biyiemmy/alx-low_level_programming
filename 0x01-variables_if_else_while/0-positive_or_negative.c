@@ -3,9 +3,10 @@
 #include <stdio.h>
 
 /* 
- * main -> assign a random number to a variable, n each time 
- * it is executed and prints it based ona condition
- * return always 0
+ * main -> main block
+ * Description -> assign a random number to a variable, n each time 
+ * print the number if it is positive, negative, or zero
+ * return: 0
 */
 int main(void)
 {
