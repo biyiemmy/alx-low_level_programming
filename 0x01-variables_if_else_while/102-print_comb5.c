@@ -1,46 +1,52 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main -mainblock to e executed
- * Descripton: program that prints all possible combinations of digits
- * Return: 0
+ * main - block to be executed
+ * Description: a program that prints all possible
+ * combinations of two two-digit numbers
+ * The numbers should range from 0 to 99
+ * Return: 0 Success
  */
 int main(void)
 {
-int c = 0;
-int f_d;
-int l_d;
+	int c = 0;
+	int d;
+	int e;
 
-int c2;
-int f_d2;
-int l_d2;
+	int c2;
+	int d2;
+	int e2;
 
-while (c <= 98)
-{
-	f_d = (c / 10 + '0');
-	l_d = (c % 10 + '0');
-	c2 = 0;
-	while (c2 <= 99)
+	while (c <= 98)
 	{
-		f_d2 = (c2 / 10 + '0');
-		l_d2 = (c2 % 10 + '0');
-		if (c < c2)
+		d = (c / 10 + '0');
+		e = (c % 10 + '0');
+		c2 = 0;
+
+		while (c2 <= 99)
 		{
-			putchar(f_d);
-			putchar(l_d);
-			putchar(' ');
-			putchar(f_d2);
-			putchar(l_d2);
-			if (c != 98)
+			d2 = (c2 / 10 + '0');
+			e2 = (c2 % 10 + '0');
+
+			if (c < c2)
 			{
-				putchar(',');
+				putchar(d);
+				putchar(e);
 				putchar(' ');
+				putchar(d2);
+				putchar(e2);
+
+				if (c != 98)
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
+			c2++;
 		}
-		c2++;
+		c++;
 	}
-	c++;
-}
-putchar('\n');
-return (0);
+	putchar('\n');
+
+	return (0);
 }
