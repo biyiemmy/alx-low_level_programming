@@ -3,7 +3,7 @@
 /**
  * main - main block to be executed
  * Description: write a program that prints all the combinations of two digits
- * numbers to be seperated with ,, followed by a psace
+ * numbers to be seperated with ,, followed by a space
  * Return: 0 Success
  */
 int main(void)
