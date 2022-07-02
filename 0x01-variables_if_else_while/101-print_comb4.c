@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block to be executed
- * Description: Write a program that prints all possible different combinations of three digits.
+ * Description: Write a program that prints all possible
+ * different combinations of three digits
  * Return: 0 Success
  */
 int main(void)
@@ -14,9 +15,11 @@ int main(void)
 	while (e < 10)
 	{
 		d = 0;
+
 		while (d < 10)
 		{
 			c = 0;
+
 			while (c < 10)
 			{
 				if (c != d && d != e && e < d && d < c)
