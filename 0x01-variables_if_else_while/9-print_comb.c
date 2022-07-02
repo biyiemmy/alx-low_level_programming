@@ -1,27 +1,25 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main -> assign a random number to the variable n each time it is executed
- * and print the last digit of the number store sin the variable n
- * Return: Always 0 (Success)
+ * main - block to be executed
+ * Description: print out all single digits
+ * Return: 0 Success
  */
 int main(void)
 {
-	int ch;
+	int c = 0;
 
-	for (ch = 48; ch <= 57; ch++)
+	while (c < 10)
+
 	{
-
-		putchar(ch);
-		if (ch != 57)
-
+		putchar(48 + c);
+		if (c != 9)
 		{
-			putchar(44);
-			putchar(33);
+			putchar(",");
+			putchar(" ");
 		}
+		c++;
 	}
-
-	putchar(10); /* this is an ascii code for new line */
-
+	putchar("\n");
 	return (0);
 }
