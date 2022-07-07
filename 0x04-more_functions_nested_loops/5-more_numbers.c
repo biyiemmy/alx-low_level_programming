@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14
- * Return: void
+ * more_numbers - prints more numbers
+ * Return:void
  */
 void more_numbers(void)
 {
-	char n, c
+	char n, c;
 	int i = 0;
 
 	while (i < 10)
