@@ -1,1 +1,1 @@
-This is the Readme
+## C - Pointers, arrays and strings
