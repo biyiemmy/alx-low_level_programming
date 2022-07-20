@@ -17,6 +17,7 @@ int _strlen_recursion(char *s)
 /**
  * is_palindrome - palindrome
  * @s: pointer to string
+ * @l: position
  * Return: recursion
  */
 int is_palindrome(char *s)
