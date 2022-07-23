@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	value = atoi(argv[1])
+	value = atoi(argv[1]);
 	if (value < 0)
 	{
 		printf("%d\n", 0);
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	if (value % 10 >= 0)
 	{
 		c += value / 10;
-		value = value % 10
+		value = value % 10;
 	}
 	if (value % 5 >= 0)
 	{
@@ -51,6 +51,5 @@ int main(int argc, char *argv[])
 		c += value / 1;
 	}
 	printf("%d\n", c);
-
 	return (0);
 }
