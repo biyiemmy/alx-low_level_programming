@@ -3,14 +3,15 @@
 
 /**
  * free_dog - Frees dogs.
- * @d: The dog to be freed.
+ * @d: pointer to the dog struct
  */
 void free_dog(dog_t *d)
 {
 	if (d != NULL)
 	{
-		free(d->owner);
 		free(d->name);
+		free(d->owner);
+
 		free(d);
 	}
 }
