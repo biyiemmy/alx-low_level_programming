@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-i
 /**
  * clear_bit - sets the value of a bit to 0 at a given index
  * @n: parameter
